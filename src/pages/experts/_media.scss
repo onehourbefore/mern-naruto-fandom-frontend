@@ -1,0 +1,19 @@
+@media(max-width: 580px) {
+    .root {
+        width: 100%;
+    }
+}
+
+@media(max-width: 430px) {
+    .root {
+        padding: 20px 60px;
+        padding-top: 100px;
+    }
+}
+
+@media(max-width: 370px) {
+    .root {
+        padding: 20px;
+        padding-top: 100px;
+    }
+}

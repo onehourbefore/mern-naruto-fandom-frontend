@@ -1,0 +1,129 @@
+@media(max-width: 1280px) {
+    .root__container {
+        width: 900px;
+    }
+}
+
+@media(max-width: 990px) {
+    .root {
+        font-size: 12px;
+
+        &__container {
+            display: none;
+        }
+
+        &__hamburger {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 20px;
+
+            &_icon_item {
+                height: 3px;
+                width: 30px;
+                margin-top: 7px;
+                background: white;
+
+                &:first-child {
+                    margin-top: 0px;
+                }
+            }
+        }
+
+        &__noVisible {
+            display: none;
+        }
+
+        &__visible {
+            width: 50%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.8);
+            height: 100vh;
+            padding: 40px;
+            z-index: 2;
+            animation: toShow 1s ease-in-out;
+
+            @keyframes toShow {
+                from {
+                    transform: translateX(100%);
+                }
+                to {
+                    transform: translateX(0%);
+                }
+            }
+        }
+
+        &__link {
+            margin: 0px;
+            margin-top: 40px;
+        }
+
+        &__userData_avatar {
+            margin: 0px;
+            margin-right: 20px;
+        }
+    }
+}
+
+@media(max-width: 550px) {
+    .root {
+        &__visible {
+            width: 100%;
+        }
+
+        &__hamburger_signLinks {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__signUp {
+            margin: 0px;
+            margin-top: 5px;
+        }
+
+        &__signBtns {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+
+@media(max-width: 370px) {
+    .root {
+        &__logo {
+            display: none;
+        }
+
+        &__hamburger {
+            padding: 0px;
+
+            &_signLinks {
+                align-items: flex-start
+            }
+        }
+
+        &__signIn {
+            font-size: 12px;
+        }
+
+        &__signUp {
+            color: rgb(74, 84, 153);
+            font-weight: 800;
+            font-size: 12px;
+            margin-top: 10px;
+            padding: 0px;
+            background: transparent;
+        }
+
+        &__signBtns {
+            align-items: flex-start;
+        }
+    }
+}

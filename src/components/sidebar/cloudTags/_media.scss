@@ -1,0 +1,15 @@
+@media(max-width: 1080px) {
+    .root {
+        width: 100%;
+        margin: 0px;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 980px) {
+    .root {
+        &__body {
+            height: 90px;
+        }
+    }
+}

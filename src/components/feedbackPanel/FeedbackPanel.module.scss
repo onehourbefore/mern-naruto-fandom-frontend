@@ -1,0 +1,34 @@
+.root {
+    display: grid;
+    grid-template-columns: 7fr 1fr 1fr;
+    align-items: center;
+    margin-top: 20px;
+    cursor: default;
+
+    &__item {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        &:first-child {
+            justify-content: flex-start;
+        }
+
+        &_count {
+            font-size: 15px;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        &_img {
+            width: 30px;
+            height: auto;
+            margin-right: 10px;
+        }
+    }
+
+    &_likeImg {
+        cursor: pointer;
+    }
+}
+
+@import "media.scss"

@@ -1,0 +1,62 @@
+.root {
+   min-height: 100vh;
+   padding-top: 160px;
+
+   &__deleteProfile {
+        color: rgb(140, 0, 0);
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+
+        &:hover {
+            color: rgb(100, 0, 0);
+        }
+    }
+
+    &__header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &_avatar {
+            max-width: 300px;
+            max-height: 350px;
+            border-radius: 20px;
+            margin-left: 100px;
+        }
+
+        &_userData {
+            text-align: right;
+            border-right: 1px solid white;
+            padding-right: 100px;
+
+            &_name {
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+
+            &_role {
+                font-size: 20px;
+            }
+
+            div {
+                margin-top: 15px;
+
+                &:first-child {
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+
+    &__logout a {
+        font-weight: 600;
+        font-size: 14px;
+        transition: 0.3s ease-in-out;
+
+        &:hover {
+            color: rgb(88, 88, 88);
+        }
+    }
+}
+
+@import "media.scss"

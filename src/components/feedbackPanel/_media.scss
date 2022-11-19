@@ -1,0 +1,16 @@
+@media (max-width: 600px) {
+    .root {
+        grid-template-columns: 4fr 1fr 1fr;
+        margin-top: 15px;
+
+        &__item {  
+            &_count {
+                font-size: 12px;
+            }
+    
+            &_img {
+                width: 20px;
+            }
+        }
+    }
+}

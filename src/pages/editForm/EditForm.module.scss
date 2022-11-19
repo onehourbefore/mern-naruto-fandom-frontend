@@ -1,0 +1,143 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px;
+    padding-top: 50px;
+
+    &__back {
+        width: 100%;
+        margin-bottom: 10px;
+
+        &_img {
+            width: 30px;
+            height: 30px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+
+            &:hover {
+                background: rgba(25, 25, 25, 0.5);
+            }
+        }
+    }
+
+    &__spinner {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    &__errorMessage {
+        color: red;
+        text-align: center;
+    }
+
+    &__content {
+        width: 100%;
+        padding: 20px 40px;
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+
+        &_formTitle {
+            text-align: center;
+        }
+
+        &_title {
+            width: 100%;
+            background: transparent;
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            padding: 10px 20px;
+            margin-top: 20px;
+        }
+
+        &_body {
+            width: 100%;
+            height: 150px;
+            background: transparent;
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            padding: 10px 20px;
+            margin-top: 20px;
+            resize: none;
+
+            &::-webkit-scrollbar {
+                width: 5px;
+            }
+              
+            &::-webkit-scrollbar-track {
+                box-shadow: 5px 5px 5px -5px rgba(1, 5, 58, 0.2) inset;
+                background-color: #535353;
+                border-radius: 10px;
+            }
+              
+            &::-webkit-scrollbar-thumb {
+                border-radius: 10px;
+                background: rgb(7, 7, 26);
+            }
+        }
+
+        &_tags {
+            width: 100%;
+            background: transparent;
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            padding: 10px 20px;
+            margin: 20px 0px 20px 0px;
+            resize: none;
+        }
+
+        &_label {
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+
+            &:hover {
+                color: grey;
+            }
+        }
+
+        &_addImg {
+            display: none;
+        }
+
+        &_requiredMess {
+            font-weight: 600;
+            color: red;
+            margin-top: 30px;
+        }
+    }
+
+    &__btns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+
+        &_btn {
+            font-size: 12px;
+            background: transparent;
+            margin-right: 20px;
+            padding: 5px 20px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 5px;
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+
+            &:last-child {
+                margin-right: 0px;
+            }
+
+            &:hover {
+                border: 1px solid rgba(120, 120, 120, 0.3);
+                background: rgba(10, 10, 10);
+            }
+        }
+    }
+}
+
+@import "media.scss"

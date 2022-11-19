@@ -1,0 +1,32 @@
+.root {
+    width: 25%;
+    height: min-content;
+    padding: 20px;
+    margin-right: 40px;
+    background: rgba(10, 10, 20, 0.7);
+    border-radius: 10px;
+    box-shadow: 3px 3px rgba(40, 40, 40, 0.4);
+    cursor: default;
+    position: relative;
+
+    &__createPostBtn {
+        width: 100%;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        border: none;
+        background: rgba(160, 160, 160, 0.1);
+        margin-top: 70px;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+
+        &:hover {
+            background: rgba(80, 80, 80, 0.1);
+            color: rgba(200, 200, 200, 0.6);
+        }
+    }
+}
+
+@import "media.scss"

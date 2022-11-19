@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+  
+body::-webkit-scrollbar-track {
+    box-shadow: 5px 5px 5px -5px rgba(1, 5, 58, 0.2) inset;
+    background-color: #535353;
+    border-radius: 10px;
+}
+  
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgb(7, 7, 26);
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 1);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)), url('../assets/jpg/backgroundNews.jpg') center (center/cover) no-repeat;
+    background-attachment: fixed;
+}
+
+input:focus {
+    outline: 1px solid rgba(180, 180, 180, 0.6);
+}
+
+textarea:focus {
+    outline: 1px solid rgba(180, 180, 180, 0.6);
+}
+
+@import "media.scss"

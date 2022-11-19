@@ -1,0 +1,40 @@
+@media(max-width: 1280px) {
+    .container {
+        width: 100%;
+    }
+    .root {
+        background: transparent;
+        box-shadow: none;
+    }
+}
+
+@media(max-width: 740px) {
+    .root__header {
+        &_edit {
+            width: 35px;
+        }
+
+        &_back {
+            width: 40px;
+        }
+    }
+
+    .root {
+        padding: 20px 40px;
+    }
+
+    .root__postImage {
+        margin-top: 10px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 520px) {
+    .root {
+        padding: 20px 10px;
+
+        &__commentForm_title {
+            font-size: 12px;
+        }
+    }
+}

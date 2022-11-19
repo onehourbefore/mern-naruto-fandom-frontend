@@ -1,0 +1,43 @@
+.root {
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__author {
+        font-size: 12px;
+        text-align: right;
+        cursor: default;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    &__titleWrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 22px;
+        transition: 0.3s ease-in-out;
+        margin-top: 20px;
+        cursor: pointer;
+
+        &:hover {
+            color: rgb(92, 92, 92);
+        }
+    }
+
+    &__content {
+        min-height: 50px;
+        margin-top: 10px;
+        font-size: 14px;
+        text-align: justify;
+        text-indent: 30px;
+        cursor: default;
+    }
+}
+
+@import 'media.scss'

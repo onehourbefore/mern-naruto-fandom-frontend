@@ -1,0 +1,133 @@
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)), 
+        url('../../assets/jpg/narutoMain.jpg') center (center/cover) no-repeat;
+    width: 100%;
+    height: 100vh;
+
+    &__container {
+        padding: 40px;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__article {
+        &_title {
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        &_content {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        &_btn {
+            display: block;
+            font-size: 12px;
+            font-weight: 800;
+            background: rgb(18, 24, 71);
+            padding: 10px 30px;
+            border-radius: 20px;
+            margin-left: 20px;
+            letter-spacing: 1px;
+            border: none;
+            margin: 60px auto 0px;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+
+            &:hover {
+                background: rgb(13, 17, 51);
+                color: rgb(99, 99, 99);
+            }
+        }
+    }
+
+    &__imgsWrapper {
+        position: relative;
+        margin-left: 20px;
+
+        &_narutoPng {
+            width: 300px;
+            height: auto;
+            transform: scale(-1, 1);
+        }
+
+        &_stars {
+            position: absolute;
+            transform: rotate(0deg);
+            top: -80px;
+            right: -100px;
+            width: 300px;
+            height: auto;
+        }
+
+        &_starsTwo {
+            position: absolute;
+            left: -50px;
+            bottom: -40px;
+            width: 300px;
+            height: auto;
+        }
+
+        &_moon {
+            position: absolute;
+            transform: rotate(-75deg);
+            right: -30px;
+            bottom: 10px;
+            width: 50px;
+            height: auto;
+        }
+    }
+
+    &__social {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 60px;
+
+        &_wrapperIcon {
+            border-radius: 100%;
+            margin-right: 30px;
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+
+            &:after {
+                content: '';
+                display: block;
+                height: 5px;
+                border-bottom: 2px solid #808080;
+                opacity: 0;
+                transition: 0.3s ease-in-out;
+            }
+
+            &:hover {
+                transform: translateY(-5px) scale(1.2);
+            }
+
+            &:hover:after {
+                transform: scale(1.2);
+                opacity: 0.6;
+            }
+
+            &:last-child {
+                margin-right: 0px;
+            }
+        }
+
+        &_icon {
+            width: 25px;
+            height: auto;
+        }
+    }
+}
+
+@import "media.scss"
+

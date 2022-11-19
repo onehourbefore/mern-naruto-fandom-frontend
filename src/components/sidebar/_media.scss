@@ -1,0 +1,27 @@
+@media(max-width: 980px) {
+    .root {
+        width: 100%;
+        margin: 0px auto;
+        margin-bottom: 40px;
+        display: block;
+
+        &__createPostBtn {
+            margin-top: 40px;
+            width: 50%;
+            display: block;
+            margin: 40px auto 0px;
+        }
+    }
+}
+
+@media(max-width: 720px) {
+    .root {
+        padding: 20px;
+    }
+}
+
+@media(max-width: 420px) {
+    .root__createPostBtn {
+        width: 100%;
+    }
+}

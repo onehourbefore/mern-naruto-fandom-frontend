@@ -1,0 +1,387 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar auth: { role: admin } 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="root"
+      >
+        <div>
+          <div
+            class="root"
+          >
+            <div
+              class="root__search"
+            >
+              <div
+                class="root__searchWrapper"
+              >
+                <img
+                  alt="Поиск"
+                  class="root__search_icon"
+                  src="search.png"
+                />
+                <input
+                  class="root__search_input"
+                  id="searchInput"
+                  placeholder="Поиск по блогу..."
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <button
+            class="root__createPostBtn"
+            data-testid="createPostBtn-test"
+          >
+            <div>
+              СОЗДАТЬ
+            </div>
+            <div>
+              НОВЫЙ ПОСТ
+            </div>
+          </button>
+        </div>
+        <div
+          class="root"
+        >
+          <h3
+            class="root__title"
+          >
+            ОБЛАКО ТЕГОВ
+          </h3>
+          <div
+            class="root__body"
+          >
+            <span
+              class="root__tag"
+            >
+              one
+            </span>
+            <span
+              class="root__tag"
+            >
+              two
+            </span>
+            <span
+              class="root__tag"
+            >
+              three
+            </span>
+          </div>
+        </div>
+        <div
+          class="root"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="root"
+    >
+      <div>
+        <div
+          class="root"
+        >
+          <div
+            class="root__search"
+          >
+            <div
+              class="root__searchWrapper"
+            >
+              <img
+                alt="Поиск"
+                class="root__search_icon"
+                src="search.png"
+              />
+              <input
+                class="root__search_input"
+                id="searchInput"
+                placeholder="Поиск по блогу..."
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+        <button
+          class="root__createPostBtn"
+          data-testid="createPostBtn-test"
+        >
+          <div>
+            СОЗДАТЬ
+          </div>
+          <div>
+            НОВЫЙ ПОСТ
+          </div>
+        </button>
+      </div>
+      <div
+        class="root"
+      >
+        <h3
+          class="root__title"
+        >
+          ОБЛАКО ТЕГОВ
+        </h3>
+        <div
+          class="root__body"
+        >
+          <span
+            class="root__tag"
+          >
+            one
+          </span>
+          <span
+            class="root__tag"
+          >
+            two
+          </span>
+          <span
+            class="root__tag"
+          >
+            three
+          </span>
+        </div>
+      </div>
+      <div
+        class="root"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Sidebar no auth 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="root"
+      >
+        <div>
+          <div
+            class="root"
+          >
+            <div
+              class="root__search"
+            >
+              <div
+                class="root__searchWrapper"
+              >
+                <img
+                  alt="Поиск"
+                  class="root__search_icon"
+                  src="search.png"
+                />
+                <input
+                  class="root__search_input"
+                  id="searchInput"
+                  placeholder="Поиск по блогу..."
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="root"
+        >
+          <h3
+            class="root__title"
+          >
+            ОБЛАКО ТЕГОВ
+          </h3>
+          <div
+            class="root__body"
+          >
+            <span
+              class="root__tag"
+            >
+              one
+            </span>
+            <span
+              class="root__tag"
+            >
+              two
+            </span>
+            <span
+              class="root__tag"
+            >
+              three
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="root"
+    >
+      <div>
+        <div
+          class="root"
+        >
+          <div
+            class="root__search"
+          >
+            <div
+              class="root__searchWrapper"
+            >
+              <img
+                alt="Поиск"
+                class="root__search_icon"
+                src="search.png"
+              />
+              <input
+                class="root__search_input"
+                id="searchInput"
+                placeholder="Поиск по блогу..."
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="root"
+      >
+        <h3
+          class="root__title"
+        >
+          ОБЛАКО ТЕГОВ
+        </h3>
+        <div
+          class="root__body"
+        >
+          <span
+            class="root__tag"
+          >
+            one
+          </span>
+          <span
+            class="root__tag"
+          >
+            two
+          </span>
+          <span
+            class="root__tag"
+          >
+            three
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

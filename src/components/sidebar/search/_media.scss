@@ -1,0 +1,19 @@
+@media(max-width: 1080px) {
+    .root {
+        &__notFoundStatus {
+            top: 60px;
+        }
+    }
+}
+
+@media(max-width: 420px) {
+    .root {
+        &__search_input {
+            width: 100%;
+        }
+
+        &__notFoundStatus {
+            font-size: 11px;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.root {
+    background: rgba(18, 18, 18, 0.4);
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgba(35, 35, 35, 0.5);
+    margin-top: 40px;
+
+    &__back_img {
+        width: 30px;
+        height: auto;
+        cursor: pointer;
+    }
+    
+    &__error {
+        width: 250px;
+        height: auto;
+    }
+}

@@ -1,0 +1,309 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostList integration test 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="root"
+        data-testid="postlist-test"
+      >
+        <div
+          class="root"
+          data-testid="post-root"
+        >
+          <div
+            class="root__mainWrapper"
+          >
+            <div
+              class="root"
+            >
+              <div
+                class="root__header"
+              >
+                <div
+                  class="root__author"
+                >
+                  <span
+                    class="root__author"
+                  >
+                    one
+                     
+                  </span>
+                  <span
+                    class="root__author"
+                  >
+                    two
+                     
+                  </span>
+                </div>
+                <div
+                  class="root__author"
+                >
+                  Автор: 
+                  Jake
+                </div>
+              </div>
+              <div
+                class="root__titleWrapper"
+              >
+                <h2
+                  class="root__title"
+                >
+                  NARUTO
+                </h2>
+              </div>
+              <div
+                class="root__content"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Eos fuga deserunt, delectus alias quasi sint dolor, expedita 
+        corporis aspernatur magni.
+                ...
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="root"
+          data-testid="post-root"
+        >
+          <div
+            class="root__mainWrapper"
+          >
+            <div
+              class="root"
+            >
+              <div
+                class="root__header"
+              >
+                <div
+                  class="root__author"
+                >
+                  <span
+                    class="root__author"
+                  >
+                    three
+                     
+                  </span>
+                  <span
+                    class="root__author"
+                  >
+                    four
+                     
+                  </span>
+                </div>
+                <div
+                  class="root__author"
+                >
+                  Автор: 
+                  Rob
+                </div>
+              </div>
+              <div
+                class="root__titleWrapper"
+              >
+                <h2
+                  class="root__title"
+                >
+                  SASUKE
+                </h2>
+              </div>
+              <div
+                class="root__content"
+              >
+                Voluptate numquam reprehenderit 
+        molestias doloribus necessitatibus. Debitis atque hic facere.
+                ...
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          style="height: 5px; background: transparent;"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="root"
+      data-testid="postlist-test"
+    >
+      <div
+        class="root"
+        data-testid="post-root"
+      >
+        <div
+          class="root__mainWrapper"
+        >
+          <div
+            class="root"
+          >
+            <div
+              class="root__header"
+            >
+              <div
+                class="root__author"
+              >
+                <span
+                  class="root__author"
+                >
+                  one
+                   
+                </span>
+                <span
+                  class="root__author"
+                >
+                  two
+                   
+                </span>
+              </div>
+              <div
+                class="root__author"
+              >
+                Автор: 
+                Jake
+              </div>
+            </div>
+            <div
+              class="root__titleWrapper"
+            >
+              <h2
+                class="root__title"
+              >
+                NARUTO
+              </h2>
+            </div>
+            <div
+              class="root__content"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Eos fuga deserunt, delectus alias quasi sint dolor, expedita 
+        corporis aspernatur magni.
+              ...
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="root"
+        data-testid="post-root"
+      >
+        <div
+          class="root__mainWrapper"
+        >
+          <div
+            class="root"
+          >
+            <div
+              class="root__header"
+            >
+              <div
+                class="root__author"
+              >
+                <span
+                  class="root__author"
+                >
+                  three
+                   
+                </span>
+                <span
+                  class="root__author"
+                >
+                  four
+                   
+                </span>
+              </div>
+              <div
+                class="root__author"
+              >
+                Автор: 
+                Rob
+              </div>
+            </div>
+            <div
+              class="root__titleWrapper"
+            >
+              <h2
+                class="root__title"
+              >
+                SASUKE
+              </h2>
+            </div>
+            <div
+              class="root__content"
+            >
+              Voluptate numquam reprehenderit 
+        molestias doloribus necessitatibus. Debitis atque hic facere.
+              ...
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        style="height: 5px; background: transparent;"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": Object {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;

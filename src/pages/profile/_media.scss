@@ -1,0 +1,62 @@
+@media(max-width: 880px) {
+    .root {
+        &__header_avatar {
+            max-width: 250px;
+            max-height: 300px;
+            margin-left: 50px;
+        }
+
+        &__header_userData {
+            padding-right: 50px;
+
+            &_name {
+                font-size: 20px;
+            }
+
+            &_role {
+                font-size: 15px;
+            }
+
+            div {
+                font-size: 12px;
+            }
+        }
+
+        &__logout a {
+            font-weight: 600;
+            font-size: 12px;
+            transition: 0.3s ease-in-out;
+    
+            &:hover {
+                color: rgb(88, 88, 88);
+            }
+        }
+    }
+}
+
+@media(max-width: 620px) {
+    .root {
+        margin: 0px;
+
+        &__header {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+
+            &_avatar {
+                max-width: 170px;
+                max-height: 220px;
+                margin: 0px;
+            }
+        }
+
+        &__header_userData {
+            border: none;
+            border-top: 1px solid white;
+            margin-top: 20px;
+            padding: 0px;
+            padding-top: 20px;
+            text-align: left;
+        }
+    }
+}

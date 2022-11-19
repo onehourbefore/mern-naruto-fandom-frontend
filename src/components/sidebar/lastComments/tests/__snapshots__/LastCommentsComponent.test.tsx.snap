@@ -1,0 +1,487 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LastCommentsComponent fetch status loading 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="root"
+      >
+        <div
+          class="spinner"
+          data-testid="spinner"
+          style="margin-top: 10px;"
+        >
+          <div
+            class="ldsRing"
+          >
+            <div />
+            <div />
+            <div />
+            <div />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="root"
+    >
+      <div
+        class="spinner"
+        data-testid="spinner"
+        style="margin-top: 10px;"
+      >
+        <div
+          class="ldsRing"
+        >
+          <div />
+          <div />
+          <div />
+          <div />
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`LastCommentsComponent fetch status success 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="root"
+      >
+        <h3
+          class="root__title"
+        >
+          ПОСЛЕДНИЕ КОММЕНТАРИИ
+        </h3>
+        <div
+          class="root__comment"
+          data-testid="commentFromSidebar-test"
+        >
+          <div
+            class="root__comment_avatar"
+          >
+            <img
+              alt="Аватар"
+              class="root__comment_avatarIcon"
+              src="http://localhost:5000/avatars/johnAvatar.jpg"
+            />
+          </div>
+          <div
+            class="root__comment_content"
+          >
+            <div
+              class="root__comment_header"
+            >
+              <div>
+                <h3
+                  class="root__comment_header_title"
+                >
+                  John
+                </h3>
+                <div
+                  class="root__comment_header_email"
+                >
+                  john@gmail.com
+                </div>
+              </div>
+              <div>
+                <div
+                  class="root__comment_header_date"
+                >
+                  <div>
+                    13 Nov 2022
+                  </div>
+                  <div>
+                    07:43
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="root__comment_body"
+            >
+              Oops
+            </div>
+          </div>
+        </div>
+        <div
+          class="root__comment"
+          data-testid="commentFromSidebar-test"
+        >
+          <div
+            class="root__comment_avatar"
+          >
+            <img
+              alt="Аватар"
+              class="root__comment_avatarIcon"
+              src="http://localhost:5000/avatars/andyAvatar.jpg"
+            />
+          </div>
+          <div
+            class="root__comment_content"
+          >
+            <div
+              class="root__comment_header"
+            >
+              <div>
+                <h3
+                  class="root__comment_header_title"
+                >
+                  Andy
+                </h3>
+                <div
+                  class="root__comment_header_email"
+                >
+                  andy@gmail.com
+                </div>
+              </div>
+              <div>
+                <div
+                  class="root__comment_header_date"
+                >
+                  <div>
+                    12 Nov 2022
+                  </div>
+                  <div>
+                    08:10
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="root__comment_body"
+            >
+              I like football
+            </div>
+          </div>
+        </div>
+        <div
+          class="root__comment"
+          data-testid="commentFromSidebar-test"
+        >
+          <div
+            class="root__comment_avatar"
+          >
+            <img
+              alt="Аватар"
+              class="root__comment_avatarIcon"
+              src="http://localhost:5000/avatars/robAvatar.jpg"
+            />
+          </div>
+          <div
+            class="root__comment_content"
+          >
+            <div
+              class="root__comment_header"
+            >
+              <div>
+                <h3
+                  class="root__comment_header_title"
+                >
+                  Rob
+                </h3>
+                <div
+                  class="root__comment_header_email"
+                >
+                  rob@gmail.com
+                </div>
+              </div>
+              <div>
+                <div
+                  class="root__comment_header_date"
+                >
+                  <div>
+                    12 Nov 2022
+                  </div>
+                  <div>
+                    08:08
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="root__comment_body"
+            >
+              Welcome!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="root"
+    >
+      <h3
+        class="root__title"
+      >
+        ПОСЛЕДНИЕ КОММЕНТАРИИ
+      </h3>
+      <div
+        class="root__comment"
+        data-testid="commentFromSidebar-test"
+      >
+        <div
+          class="root__comment_avatar"
+        >
+          <img
+            alt="Аватар"
+            class="root__comment_avatarIcon"
+            src="http://localhost:5000/avatars/johnAvatar.jpg"
+          />
+        </div>
+        <div
+          class="root__comment_content"
+        >
+          <div
+            class="root__comment_header"
+          >
+            <div>
+              <h3
+                class="root__comment_header_title"
+              >
+                John
+              </h3>
+              <div
+                class="root__comment_header_email"
+              >
+                john@gmail.com
+              </div>
+            </div>
+            <div>
+              <div
+                class="root__comment_header_date"
+              >
+                <div>
+                  13 Nov 2022
+                </div>
+                <div>
+                  07:43
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="root__comment_body"
+          >
+            Oops
+          </div>
+        </div>
+      </div>
+      <div
+        class="root__comment"
+        data-testid="commentFromSidebar-test"
+      >
+        <div
+          class="root__comment_avatar"
+        >
+          <img
+            alt="Аватар"
+            class="root__comment_avatarIcon"
+            src="http://localhost:5000/avatars/andyAvatar.jpg"
+          />
+        </div>
+        <div
+          class="root__comment_content"
+        >
+          <div
+            class="root__comment_header"
+          >
+            <div>
+              <h3
+                class="root__comment_header_title"
+              >
+                Andy
+              </h3>
+              <div
+                class="root__comment_header_email"
+              >
+                andy@gmail.com
+              </div>
+            </div>
+            <div>
+              <div
+                class="root__comment_header_date"
+              >
+                <div>
+                  12 Nov 2022
+                </div>
+                <div>
+                  08:10
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="root__comment_body"
+          >
+            I like football
+          </div>
+        </div>
+      </div>
+      <div
+        class="root__comment"
+        data-testid="commentFromSidebar-test"
+      >
+        <div
+          class="root__comment_avatar"
+        >
+          <img
+            alt="Аватар"
+            class="root__comment_avatarIcon"
+            src="http://localhost:5000/avatars/robAvatar.jpg"
+          />
+        </div>
+        <div
+          class="root__comment_content"
+        >
+          <div
+            class="root__comment_header"
+          >
+            <div>
+              <h3
+                class="root__comment_header_title"
+              >
+                Rob
+              </h3>
+              <div
+                class="root__comment_header_email"
+              >
+                rob@gmail.com
+              </div>
+            </div>
+            <div>
+              <div
+                class="root__comment_header_date"
+              >
+                <div>
+                  12 Nov 2022
+                </div>
+                <div>
+                  08:08
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="root__comment_body"
+          >
+            Welcome!
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

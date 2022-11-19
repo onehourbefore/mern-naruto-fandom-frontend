@@ -1,0 +1,58 @@
+.root {
+    width: 600px;
+    background: rgb(20, 20, 20, 0.4);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(71, 71, 71);
+    margin: 20px auto 0px;
+    animation: 0.5s showForm ease-in-out;
+
+    @keyframes showForm {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+
+    &__area {
+        font-size: 12px;
+        width: 100%;
+        display: block;
+        background: rgba(30, 30, 30, 0.4);
+        padding: 10px;
+        resize: none;
+        margin: 0px auto;
+    }
+
+    &__btns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+
+        &_btn {
+            font-size: 12px;
+            margin-right: 20px;
+            background: transparent;
+            border-radius: 10px;
+            border: 1px solid grey;
+            padding: 5px 10px;
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            &:hover {
+                background: rgb(70, 70, 70, 0.4);
+            }
+        }
+    }
+}
+
+@import 'media.scss'

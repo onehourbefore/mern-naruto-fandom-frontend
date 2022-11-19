@@ -1,0 +1,25 @@
+@media(max-width: 580px) {
+    .root {
+        padding: 100px 0px 40px 0px;
+
+        &__form {
+            width: 100%;
+            padding: 40px;
+            border: none;
+            background: transparent;
+        }
+
+        &__submitBtn {
+            padding: 10px 30px;
+        }
+    }
+}
+
+@media(max-width: 370px) {
+    .root__title {
+        font-size: 25px;
+    }
+    .root__form {
+        padding: 20px;
+    }
+}

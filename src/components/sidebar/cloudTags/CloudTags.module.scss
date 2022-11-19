@@ -1,0 +1,71 @@
+.root {
+    margin-top: 40px;
+
+    &__title {
+        text-align: center;
+        font-size: 12px;
+        letter-spacing: 1px;
+        font-weight: 400;
+
+        &_showAll {
+            font-size: 12px;
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+
+            &:hover {
+                color: rgb(120, 120, 120);
+            }
+        }
+    }
+
+    &__body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 140px;
+        margin-top: 10px;
+        padding: 5px 10px;
+        border-radius: 10px;
+        border: 1px solid rgba(50, 50, 50, 0.5);
+        overflow-y: auto;
+
+        &::-webkit-scrollbar {
+            width: 5px;
+        }
+          
+        &::-webkit-scrollbar-track {
+            box-shadow: 5px 5px 5px -5px rgba(1, 5, 58, 0.2) inset;
+            background-color: #535353;
+            border-radius: 10px;
+        }
+          
+        &::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            background: rgb(7, 7, 26);
+        }
+    }
+
+    &__tag {
+        padding: 5px 10px;
+        border-radius: 10px;
+        background: rgba(160, 160, 160, 0.1);
+        margin: 5px;
+        transition: 0.3s ease-in-out;
+        font-size: 12px;
+        cursor: pointer;
+
+        &_active {
+            background: rgba(80, 80, 80, 0.6);
+            padding: 5px 10px;
+            border-radius: 10px;
+            margin: 5px;
+        }
+
+        &:hover {
+            background: rgba(160, 160, 160, 0.2);
+        }
+    }
+}
+
+@import "media.scss"
